@@ -1,5 +1,15 @@
 /*
+ * This program investigates a different type of lattice path title l-ary paths. Similar to Motzkin Paths,
+ * l-ary paths consist of only two step types, up and down. The down step can be of varying steepness depending
+ * on the value of l. There are also ways to generalize l-ary paths by stating the paths can drop below the x-axis
+ * but must stay above the line y = a where a can be customized. There are also r-fine paths that state there cannot
+ * be a peak in the lattice path consisting of r up steps follweds by a down which step ends on the x-axis.
  * 
+ * This program prompts the user for values l, a, and r. To remove generalizations, simply input a = 0 and r = 0.
+ * l must be greater r, otherwise the program exists.
+ * 
+ * Upon finishing input, a sequence will be printed that represents the number of l-ary paths given the conditions
+ * at increasing lengths.
  */
 
 import java.util.*;
