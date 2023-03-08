@@ -10,6 +10,9 @@
  * 
  * Upon finishing input, a sequence will be printed that represents the number of l-ary paths given the conditions
  * at increasing lengths.
+ * 
+ * There is also commented code that can be uncommented for further generalizations, such as ensuring there are no
+ * peaks at certain heights and for paths that solely stay above certain levels.
  */
 
 import java.util.*;
@@ -74,6 +77,8 @@ public class lAryPathSequenceGenerator {
          }
 
       }
+
+      System.out.println();
    
    }
    
